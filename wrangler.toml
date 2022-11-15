@@ -1,0 +1,10 @@
+name = "unirep-keys-r2"
+main = "src/index.js"
+compatibility_date = "2022-11-10"
+
+workers_dev = true
+
+[[r2_buckets]]
+binding = 'KEY_BUCKET' # <~ valid JavaScript variable name
+bucket_name = 'unirep-keys'
+
